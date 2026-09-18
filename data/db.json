@@ -1,0 +1,925 @@
+{
+  "members": [
+    {
+      "phone": "+91 95108 40972",
+      "id": "mem-1788434350664",
+      "role": "DevOps Engineer Intern",
+      "employeeId": "EMP-1002",
+      "email": "isha.hansalpara@sahilinfotech.com",
+      "department": "Engineering",
+      "avatarColor": "from-blue-600 to-indigo-600",
+      "shift": "regular",
+      "name": "Isha Hansalpara",
+      "joinDate": "2026-09-10",
+      "active": true
+    },
+    {
+      "id": "mem-1789031052281",
+      "shift": "regular",
+      "department": "Engineering",
+      "phone": "+91 93566 53369",
+      "role": "DevOps Engineer Intern",
+      "name": "Vaishnav Patil",
+      "avatarColor": "from-emerald-600 to-teal-600",
+      "active": true,
+      "email": "vaishnav.patil@sahilinfotech.com",
+      "employeeId": "EMP-1003",
+      "joinDate": "2026-09-10"
+    },
+    {
+      "role": "DevOps Engineer Intern",
+      "id": "mem-1789031218020",
+      "name": "Tejas Patil",
+      "joinDate": "2026-09-10",
+      "email": "tejas.patil@sahilinfotech.com",
+      "employeeId": "EMP-1004",
+      "avatarColor": "from-rose-600 to-pink-600",
+      "shift": "regular",
+      "department": "Engineering",
+      "phone": "+91 84829 61361",
+      "active": true
+    },
+    {
+      "active": true,
+      "id": "mem-1789032484403",
+      "avatarColor": "from-rose-600 to-pink-600",
+      "shift": "regular",
+      "department": "Engineering",
+      "joinDate": "2026-09-10",
+      "phone": "+91 90678 71235",
+      "role": "DevOps Engineer Patil",
+      "email": "pushkar.patil@sahilinfotech.com",
+      "employeeId": "EMP-1005",
+      "name": "Pushkar Patil"
+    },
+    {
+      "name": "Meet Parsana",
+      "phone": "+91 95379 56062",
+      "avatarColor": "from-cyan-600 to-blue-600",
+      "role": "HR Manager",
+      "department": "Human Resources",
+      "shift": "regular",
+      "id": "mem-1789033215827",
+      "avatarUrl": "data:image/jpeg;base64,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",
+      "active": true,
+      "joinDate": "2026-09-10",
+      "employeeId": "EMP-1001",
+      "email": "meet.parsana@sahilinfotech.com"
+    },
+    {
+      "id": "mem-parsanameet88_gmail_com",
+      "name": "meet",
+      "employeeId": "PARSANAMEET88",
+      "department": "Operations & Admin",
+      "role": "Staff Member",
+      "email": "parsanameet88@gmail.com",
+      "phone": "",
+      "joinDate": "2026-09-01",
+      "shift": "regular",
+      "avatarColor": "from-blue-600 to-indigo-600",
+      "active": true
+    },
+    {
+      "id": "mem-sujalsangani20_gmail_com",
+      "name": "sujal sangani",
+      "employeeId": "SUJALSANGANI20",
+      "department": "Operations & Admin",
+      "role": "Staff Member",
+      "email": "sujalsangani20@gmail.com",
+      "phone": "",
+      "joinDate": "2026-09-01",
+      "shift": "regular",
+      "avatarColor": "from-blue-600 to-indigo-600",
+      "active": true
+    },
+    {
+      "id": "mem-1788262388652",
+      "name": "sujal",
+      "employeeId": "SUJAL",
+      "department": "Operations & Admin",
+      "role": "Staff Member",
+      "email": "sujal@sangani.com",
+      "phone": "",
+      "joinDate": "2026-09-01",
+      "shift": "regular",
+      "avatarColor": "from-blue-600 to-indigo-600",
+      "active": true
+    },
+    {
+      "id": "mem-1788350253951",
+      "name": "shubhm",
+      "employeeId": "PARSANAMEET",
+      "department": "Operations & Admin",
+      "role": "Staff Member",
+      "email": "parsanameet@gmail.com",
+      "phone": "",
+      "joinDate": "2026-09-02",
+      "shift": "regular",
+      "avatarColor": "from-blue-600 to-indigo-600",
+      "active": true
+    },
+    {
+      "id": "mem-1788351077285",
+      "name": "shubham",
+      "employeeId": "SHUBHAM",
+      "department": "Operations & Admin",
+      "role": "Staff Member",
+      "email": "shubham@gmail.com",
+      "phone": "",
+      "joinDate": "2026-09-02",
+      "shift": "regular",
+      "avatarColor": "from-blue-600 to-indigo-600",
+      "active": true
+    },
+    {
+      "id": "mem-1788346241332",
+      "name": "Parsana Meet",
+      "employeeId": "1788346241332",
+      "department": "Operations & Admin",
+      "role": "Staff Member",
+      "email": "parsanameet8@gmail.com",
+      "phone": "",
+      "joinDate": "2026-09-16",
+      "shift": "regular",
+      "avatarColor": "from-blue-600 to-indigo-600",
+      "active": true
+    }
+  ],
+  "records": [
+    {
+      "id": "att-mem-1788434350664-2026-09-10",
+      "checkOutTime": "19:00",
+      "checkInTime": "10:00",
+      "date": "2026-09-10",
+      "memberId": "mem-1788434350664",
+      "updatedAt": "2026-09-10T12:48:28.924Z",
+      "status": "present",
+      "notes": "Approved Leave (SICK): Yyy"
+    },
+    {
+      "memberId": "mem-1788434350664",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "date": "2026-09-11",
+      "id": "att-mem-1788434350664-2026-09-11",
+      "updatedAt": "2026-09-11T11:57:03.363Z",
+      "status": "present",
+      "notes": "Approved Leave (SICK): taav aave ceh"
+    },
+    {
+      "checkInTime": "10:00",
+      "status": "present",
+      "memberId": "mem-1788434350664",
+      "checkOutTime": "19:00",
+      "id": "att-mem-1788434350664-2026-09-14",
+      "date": "2026-09-14",
+      "updatedAt": "2026-09-14T06:06:46.773Z",
+      "notes": "Approved Leave (SICK): taav aave ceh"
+    },
+    {
+      "date": "2026-09-10",
+      "status": "present",
+      "checkOutTime": "19:00",
+      "checkInTime": "14:58",
+      "notes": "Late arrival self check-in (after 10:15 AM)",
+      "memberId": "mem-1789031052281",
+      "updatedAt": "2026-09-10T12:48:59.576Z",
+      "id": "att-mem-1789031052281-2026-09-10"
+    },
+    {
+      "notes": "On-time self check-in (10:00 AM shift)",
+      "date": "2026-09-11",
+      "memberId": "mem-1789031052281",
+      "checkOutTime": "19:00",
+      "status": "present",
+      "checkInTime": "09:52",
+      "updatedAt": "2026-09-11T11:57:03.363Z",
+      "id": "att-mem-1789031052281-2026-09-11"
+    },
+    {
+      "id": "att-mem-1789031052281-2026-09-14",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-14T06:06:46.773Z",
+      "date": "2026-09-14",
+      "notes": "On-time self check-in (10:00 AM shift)",
+      "checkInTime": "09:16",
+      "status": "present",
+      "memberId": "mem-1789031052281"
+    },
+    {
+      "status": "present",
+      "checkOutTime": "19:00",
+      "notes": "Late arrival self check-in (after 10:15 AM)",
+      "date": "2026-09-10",
+      "checkInTime": "14:45",
+      "memberId": "mem-1789031218020",
+      "updatedAt": "2026-09-10T12:48:28.924Z",
+      "id": "att-mem-1789031218020-2026-09-10"
+    },
+    {
+      "checkOutTime": "19:00",
+      "checkInTime": "09:52",
+      "date": "2026-09-11",
+      "notes": "On-time self check-in (10:00 AM shift)",
+      "status": "present",
+      "id": "att-mem-1789031218020-2026-09-11",
+      "memberId": "mem-1789031218020",
+      "updatedAt": "2026-09-11T11:57:03.363Z"
+    },
+    {
+      "checkInTime": "10:00",
+      "date": "2026-09-14",
+      "checkOutTime": "19:00",
+      "id": "att-mem-1789031218020-2026-09-14",
+      "status": "present",
+      "memberId": "mem-1789031218020",
+      "updatedAt": "2026-09-14T06:06:46.773Z"
+    },
+    {
+      "checkInTime": "15:03",
+      "memberId": "mem-1789032484403",
+      "updatedAt": "2026-09-10T12:48:28.924Z",
+      "date": "2026-09-10",
+      "checkOutTime": "19:00",
+      "notes": "Late arrival self check-in (after 10:15 AM)",
+      "status": "present",
+      "id": "att-mem-1789032484403-2026-09-10"
+    },
+    {
+      "status": "present",
+      "checkOutTime": "19:00",
+      "memberId": "mem-1789032484403",
+      "notes": "On-time self check-in (10:00 AM shift)",
+      "date": "2026-09-11",
+      "id": "att-mem-1789032484403-2026-09-11",
+      "updatedAt": "2026-09-11T11:57:03.363Z",
+      "checkInTime": "09:52"
+    },
+    {
+      "checkOutTime": "19:00",
+      "date": "2026-09-14",
+      "checkInTime": "09:17",
+      "id": "att-mem-1789032484403-2026-09-14",
+      "status": "present",
+      "updatedAt": "2026-09-14T06:06:46.773Z",
+      "notes": "On-time self check-in (10:00 AM shift)",
+      "memberId": "mem-1789032484403"
+    },
+    {
+      "date": "2026-09-10",
+      "updatedAt": "2026-09-10T12:48:28.924Z",
+      "memberId": "mem-1789033215827",
+      "checkInTime": "15:10",
+      "status": "present",
+      "id": "att-mem-1789033215827-2026-09-10",
+      "checkOutTime": "19:00"
+    },
+    {
+      "checkInTime": "10:00",
+      "date": "2026-09-11",
+      "status": "present",
+      "updatedAt": "2026-09-11T11:57:03.363Z",
+      "id": "att-mem-1789033215827-2026-09-11",
+      "checkOutTime": "19:00",
+      "memberId": "mem-1789033215827"
+    },
+    {
+      "updatedAt": "2026-09-14T06:06:46.773Z",
+      "checkOutTime": "19:00",
+      "memberId": "mem-1789033215827",
+      "id": "att-mem-1789033215827-2026-09-14",
+      "date": "2026-09-14",
+      "checkInTime": "10:00",
+      "status": "present"
+    },
+    {
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "date": "2026-09-16",
+      "id": "att-mem-1788350253951-2026-09-16",
+      "memberId": "mem-1788350253951",
+      "status": "present",
+      "updatedAt": "2026-09-16T04:49:09.668Z"
+    },
+    {
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "date": "2026-09-16",
+      "id": "att-mem-1788346241332-2026-09-16",
+      "memberId": "mem-1788346241332",
+      "status": "present",
+      "updatedAt": "2026-09-16T04:49:09.668Z"
+    },
+    {
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "date": "2026-09-16",
+      "id": "att-mem-parsanameet88_gmail_com-2026-09-16",
+      "memberId": "mem-parsanameet88_gmail_com",
+      "status": "present",
+      "updatedAt": "2026-09-16T04:49:09.668Z"
+    },
+    {
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "date": "2026-09-16",
+      "id": "att-mem-sujalsangani20_gmail_com-2026-09-16",
+      "memberId": "mem-sujalsangani20_gmail_com",
+      "status": "present",
+      "updatedAt": "2026-09-16T04:49:09.668Z"
+    },
+    {
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "date": "2026-09-16",
+      "id": "att-mem-1788262388652-2026-09-16",
+      "memberId": "mem-1788262388652",
+      "status": "present",
+      "updatedAt": "2026-09-16T04:49:09.668Z"
+    },
+    {
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "date": "2026-09-16",
+      "id": "att-mem-1788351077285-2026-09-16",
+      "memberId": "mem-1788351077285",
+      "status": "present",
+      "updatedAt": "2026-09-16T04:49:09.668Z"
+    },
+    {
+      "status": "present",
+      "date": "2026-09-16",
+      "checkOutTime": "19:00",
+      "notes": "Late arrival self check-in (after 10:15 AM)",
+      "checkInTime": "10:00",
+      "updatedAt": "2026-09-16T13:25:00.000Z",
+      "id": "att-mem-1788434350664-2026-09-16",
+      "memberId": "mem-1788434350664"
+    },
+    {
+      "memberId": "mem-1789031052281",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T08:45:40.777Z",
+      "status": "present",
+      "date": "2026-09-16",
+      "id": "att-mem-1789031052281-2026-09-16",
+      "checkInTime": "10:00"
+    },
+    {
+      "checkInTime": "10:00",
+      "status": "present",
+      "id": "att-mem-1789031218020-2026-09-16",
+      "memberId": "mem-1789031218020",
+      "date": "2026-09-16",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T08:45:40.777Z"
+    },
+    {
+      "status": "present",
+      "updatedAt": "2026-09-16T13:28:20.722Z",
+      "memberId": "mem-1789032484403",
+      "date": "2026-09-16",
+      "id": "att-mem-1789032484403-2026-09-16",
+      "checkOutTime": "19:00",
+      "checkInTime": "10:00"
+    },
+    {
+      "updatedAt": "2026-09-16T13:21:40.770Z",
+      "memberId": "mem-1789033215827",
+      "status": "present",
+      "date": "2026-09-16",
+      "id": "att-mem-1789033215827-2026-09-16",
+      "checkOutTime": "19:00",
+      "checkInTime": "10:00"
+    },
+    {
+      "memberId": "mem-1788434350664",
+      "checkInTime": "18:11",
+      "status": "present",
+      "updatedAt": "2026-09-16T13:30:58.545Z",
+      "checkOutTime": "18:11",
+      "date": "2026-09-15",
+      "id": "att-mem-1788434350664-2026-09-15",
+      "notes": "Late arrival self check-in (after 10:15 AM)"
+    },
+    {
+      "id": "att-mem-1788434350664-2026-09-01",
+      "memberId": "mem-1788434350664",
+      "date": "2026-09-01",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T13:25:08.442Z"
+    },
+    {
+      "id": "att-mem-parsanameet88_gmail_com-2026-09-01",
+      "memberId": "mem-parsanameet88_gmail_com",
+      "date": "2026-09-01",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T13:25:08.442Z"
+    },
+    {
+      "id": "att-mem-sujalsangani20_gmail_com-2026-09-01",
+      "memberId": "mem-sujalsangani20_gmail_com",
+      "date": "2026-09-01",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T13:25:08.442Z"
+    },
+    {
+      "id": "att-mem-1788262388652-2026-09-01",
+      "memberId": "mem-1788262388652",
+      "date": "2026-09-01",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T13:25:08.442Z"
+    },
+    {
+      "id": "att-mem-1788350253951-2026-09-01",
+      "memberId": "mem-1788350253951",
+      "date": "2026-09-01",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T13:25:08.442Z"
+    },
+    {
+      "id": "att-mem-1788351077285-2026-09-01",
+      "memberId": "mem-1788351077285",
+      "date": "2026-09-01",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T13:25:08.442Z"
+    },
+    {
+      "id": "att-mem-1789031052281-2026-09-01",
+      "memberId": "mem-1789031052281",
+      "date": "2026-09-01",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T13:25:08.442Z"
+    },
+    {
+      "id": "att-mem-1789031218020-2026-09-01",
+      "memberId": "mem-1789031218020",
+      "date": "2026-09-01",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T13:25:08.442Z"
+    },
+    {
+      "id": "att-mem-1789032484403-2026-09-01",
+      "memberId": "mem-1789032484403",
+      "date": "2026-09-01",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T13:25:08.442Z"
+    },
+    {
+      "id": "att-mem-1789033215827-2026-09-01",
+      "memberId": "mem-1789033215827",
+      "date": "2026-09-01",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T13:25:08.442Z"
+    },
+    {
+      "id": "att-mem-1788346241332-2026-09-01",
+      "memberId": "mem-1788346241332",
+      "date": "2026-09-01",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T13:25:08.442Z"
+    },
+    {
+      "id": "att-mem-parsanameet88_gmail_com-2026-09-15",
+      "memberId": "mem-parsanameet88_gmail_com",
+      "date": "2026-09-15",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T13:30:58.545Z"
+    },
+    {
+      "id": "att-mem-sujalsangani20_gmail_com-2026-09-15",
+      "memberId": "mem-sujalsangani20_gmail_com",
+      "date": "2026-09-15",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T13:30:58.545Z"
+    },
+    {
+      "id": "att-mem-1788262388652-2026-09-15",
+      "memberId": "mem-1788262388652",
+      "date": "2026-09-15",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T13:30:58.545Z"
+    },
+    {
+      "id": "att-mem-1788350253951-2026-09-15",
+      "memberId": "mem-1788350253951",
+      "date": "2026-09-15",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T13:30:58.545Z"
+    },
+    {
+      "id": "att-mem-1788351077285-2026-09-15",
+      "memberId": "mem-1788351077285",
+      "date": "2026-09-15",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T13:30:58.545Z"
+    },
+    {
+      "id": "att-mem-1789031052281-2026-09-15",
+      "memberId": "mem-1789031052281",
+      "date": "2026-09-15",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-17T04:15:22.963Z"
+    },
+    {
+      "id": "att-mem-1789031218020-2026-09-15",
+      "memberId": "mem-1789031218020",
+      "date": "2026-09-15",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-17T04:15:22.963Z"
+    },
+    {
+      "id": "att-mem-1789032484403-2026-09-15",
+      "memberId": "mem-1789032484403",
+      "date": "2026-09-15",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-17T04:15:22.963Z"
+    },
+    {
+      "id": "att-mem-1789033215827-2026-09-15",
+      "memberId": "mem-1789033215827",
+      "date": "2026-09-15",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-17T04:15:22.963Z"
+    },
+    {
+      "id": "att-mem-1788346241332-2026-09-15",
+      "memberId": "mem-1788346241332",
+      "date": "2026-09-15",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-16T13:30:58.545Z"
+    },
+    {
+      "id": "att-mem-1788434350664-2026-09-02",
+      "memberId": "mem-1788434350664",
+      "date": "2026-09-02",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-17T04:10:11.798Z"
+    },
+    {
+      "id": "att-mem-1789031052281-2026-09-02",
+      "memberId": "mem-1789031052281",
+      "date": "2026-09-02",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-17T04:10:11.798Z"
+    },
+    {
+      "id": "att-mem-1789031218020-2026-09-02",
+      "memberId": "mem-1789031218020",
+      "date": "2026-09-02",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-17T04:10:11.798Z"
+    },
+    {
+      "id": "att-mem-1789032484403-2026-09-02",
+      "memberId": "mem-1789032484403",
+      "date": "2026-09-02",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-17T04:10:11.798Z"
+    },
+    {
+      "id": "att-mem-1789033215827-2026-09-02",
+      "memberId": "mem-1789033215827",
+      "date": "2026-09-02",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-17T04:10:11.798Z"
+    },
+    {
+      "id": "att-mem-1788434350664-2026-09-09",
+      "memberId": "mem-1788434350664",
+      "date": "2026-09-09",
+      "status": "excused",
+      "notes": "Approved Leave (SICK): taav aave ceh",
+      "updatedAt": "2026-09-17T04:12:22.921Z"
+    },
+    {
+      "id": "att-mem-1788434350664-2026-09-12",
+      "memberId": "mem-1788434350664",
+      "date": "2026-09-12",
+      "status": "excused",
+      "notes": "Approved Leave (SICK): taav aave ceh",
+      "updatedAt": "2026-09-17T04:12:22.921Z"
+    },
+    {
+      "id": "att-mem-1788434350664-2026-09-13",
+      "memberId": "mem-1788434350664",
+      "date": "2026-09-13",
+      "status": "excused",
+      "notes": "Approved Leave (SICK): taav aave ceh",
+      "updatedAt": "2026-09-17T04:12:22.921Z"
+    },
+    {
+      "id": "att-mem-1788434350664-2026-09-17",
+      "memberId": "mem-1788434350664",
+      "date": "2026-09-17",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "notes": "Approved Leave (SICK): taav aave ceh",
+      "updatedAt": "2026-09-17T06:54:08.652Z"
+    },
+    {
+      "id": "att-mem-1789031052281-2026-09-17",
+      "memberId": "mem-1789031052281",
+      "date": "2026-09-17",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-17T04:17:38.708Z"
+    },
+    {
+      "id": "att-mem-1789031218020-2026-09-17",
+      "memberId": "mem-1789031218020",
+      "date": "2026-09-17",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-17T04:17:38.708Z"
+    },
+    {
+      "id": "att-mem-1789032484403-2026-09-17",
+      "memberId": "mem-1789032484403",
+      "date": "2026-09-17",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-17T04:17:38.708Z"
+    },
+    {
+      "id": "att-mem-1789033215827-2026-09-17",
+      "memberId": "mem-1789033215827",
+      "date": "2026-09-17",
+      "status": "present",
+      "checkInTime": "10:00",
+      "checkOutTime": "19:00",
+      "updatedAt": "2026-09-17T04:17:38.708Z"
+    }
+  ],
+  "accounts": [
+    {
+      "name": "System Administrator",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "failedLoginAttempts": 0,
+      "lastLoginAt": "2026-09-01T11:21:57.168Z",
+      "id": "acc-admin-1",
+      "email": "admin@company.io",
+      "role": "admin",
+      "salt": "8f8eefcf579c2415aac9ba2ee7ce01db",
+      "passwordHash": "dd3662d664ee33a205b445f9f7014187f48a043af0f4b05dc85b01810571a14f"
+    },
+    {
+      "createdAt": "2026-09-01T09:32:06.462Z",
+      "passwordHash": "023049fd230fc4d8d92b1880e5fbc1661ea188d9a0ab9a0dcd795b328dc7501b",
+      "salt": "edd223bf04497987a137177d12fcecc3",
+      "plainPassword": "meet9090",
+      "memberId": "mem-1788346241332",
+      "lastLoginAt": "2026-09-02T10:51:31.242Z",
+      "email": "parsanameet8@gmail.com",
+      "id": "acc-1788255126462-thlh",
+      "name": "Parsana Meet",
+      "role": "admin",
+      "failedLoginAttempts": 0
+    },
+    {
+      "passwordHash": "c95d4c89262d78ccbcdd9147e4c4ffda1ab34165b4a2e13baca8d3f5c4e6d8fa",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "role": "admin",
+      "failedLoginAttempts": 0,
+      "salt": "ac53d67c2d39ea3f39b6ace7e7a9d1f8",
+      "id": "acc-admin-sahil",
+      "name": "Sahil Infotech Administrator",
+      "email": "admin@sahilinfotech.com"
+    },
+    {
+      "failedLoginAttempts": 0,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "name": "Shubham Sangani",
+      "plainPassword": "SahilInfotech.com",
+      "id": "acc-admin-shubham",
+      "passwordHash": "9c1226ecde209d51afbb5206d34e2c44924eb6bdeffb3c09e4b24ba7f42032b0",
+      "salt": "3ba200478cc0894ae91d2e02ca895ae3",
+      "role": "admin",
+      "email": "shubhamsangani3572@gmail.com"
+    },
+    {
+      "id": "acc-admin-meet",
+      "email": "meet.parsana@sahilinfotech.com",
+      "name": "Meet Parsana",
+      "role": "admin",
+      "passwordHash": "276370f24bc0dcdaf207429d3d6092789d9dd0a24d15a550da972e40ebd51c48",
+      "salt": "329cad92c2b0821cf47de5adb520bed3",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "failedLoginAttempts": 0,
+      "memberId": "mem-1789033215827",
+      "lastLoginAt": "2026-09-10T09:44:54.729Z",
+      "plainPassword": "SahilInfotech.com"
+    },
+    {
+      "email": "isha.hansalpara@sahilinfotech.com",
+      "role": "user",
+      "salt": "e554c7095f4d8485c90f9e62d00ae183",
+      "memberId": "mem-1788434350664",
+      "failedLoginAttempts": 0,
+      "passwordHash": "d119262ce3a625ec735075c7787d4c3c3c3c9e332201e0fb8d4ed8b9787a42ab",
+      "createdAt": "2026-09-02T12:24:02.174Z",
+      "plainPassword": "isha.sahilinfotech.com",
+      "name": "Isha Hansalpara",
+      "lastLoginAt": "2026-09-10T09:35:30.783Z",
+      "id": "acc-1788351842174-wjgr"
+    },
+    {
+      "id": "acc-1788255233227-rnsd",
+      "createdAt": "2026-09-01T09:33:53.227Z",
+      "name": "meet",
+      "salt": "b4472a7ec2c283bb25571fd916ef8d7f",
+      "role": "user",
+      "failedLoginAttempts": 0,
+      "email": "parsanameet88@gmail.com",
+      "passwordHash": "7ac717656d8c878946aeda0aac55c75854b77ec19717e8fb45a2ffe0e840f06a",
+      "memberId": "mem-parsanameet88_gmail_com"
+    },
+    {
+      "salt": "2628604fe08bbc6f9ce62e32e4e23b5f",
+      "passwordHash": "e4046f9e9e8326a4d01c70e407b747a4c8425d474ab9042e4f8e0cde321807dc",
+      "createdAt": "2026-09-01T10:08:15.072Z",
+      "id": "acc-1788257295072-00m4",
+      "lastLoginAt": "2026-09-01T10:48:09.817Z",
+      "failedLoginAttempts": 0,
+      "name": "sujal sangani",
+      "role": "user",
+      "email": "sujalsangani20@gmail.com",
+      "memberId": "mem-sujalsangani20_gmail_com"
+    },
+    {
+      "role": "user",
+      "name": "sujal",
+      "memberId": "mem-1788262388652",
+      "lastLoginAt": "2026-09-01T11:34:52.441Z",
+      "id": "acc-1788262388718-7mjm",
+      "salt": "5f995899e1da46c6d2cdb3299964015a",
+      "failedLoginAttempts": 0,
+      "passwordHash": "b47d6099ab1151df6247d474a0c0a8c23cc511f6060c91e40564a37d07c0c92f",
+      "email": "sujal@sangani.com",
+      "createdAt": "2026-09-01T11:33:08.718Z"
+    },
+    {
+      "lastLoginAt": "2026-09-02T12:05:23.767Z",
+      "createdAt": "2026-09-02T11:57:34.002Z",
+      "passwordHash": "cdb8231816ff5e3d42a00171e24cb3ee00a840ad49ac68ce76c1920f548ad3a2",
+      "plainPassword": "meet9090",
+      "role": "user",
+      "name": "shubhm",
+      "failedLoginAttempts": 0,
+      "memberId": "mem-1788350253951",
+      "id": "acc-1788350254002-0vye",
+      "salt": "cad697dc9c094c8675a774166747f08d",
+      "email": "parsanameet@gmail.com"
+    },
+    {
+      "salt": "238b4adf5dd3014f6854619bc76e5e9e",
+      "passwordHash": "cddf9cdfc8055c16190649a4c7c17a8d89c742478486bc490411e2f447628bdb",
+      "createdAt": "2026-09-02T12:11:17.317Z",
+      "id": "acc-1788351077317-b1pm",
+      "memberId": "mem-1788351077285",
+      "failedLoginAttempts": 0,
+      "email": "shubham@gmail.com",
+      "role": "user",
+      "name": "shubham",
+      "plainPassword": "shubham9090",
+      "lastLoginAt": "2026-09-03T06:08:43.654Z"
+    },
+    {
+      "passwordHash": "ac17ea8850c83a40f7557a288b6d4940356215b93af51452661cb58288ba6107",
+      "failedLoginAttempts": 0,
+      "id": "acc-1789016681311-sbh9",
+      "plainPassword": "SahilInfotech.com",
+      "createdAt": "2026-09-10T05:04:41.311Z",
+      "email": "vaishnav.patil@sahilinfotech.com",
+      "role": "user",
+      "lastLoginAt": "2026-09-10T09:27:38.551Z",
+      "name": "Vaishnav Patil",
+      "salt": "e11e3b9ee2fb2428060da1a3248c6b15",
+      "memberId": "mem-1789031052281"
+    },
+    {
+      "name": "Tejas Patil",
+      "salt": "925fcbf1e0a510345bd67fc778d60bf3",
+      "role": "user",
+      "email": "tejas.patil@sahilinfotech.com",
+      "passwordHash": "58a37b548a798f98389f49cb5f1d8c5a0d057f58a09bee2203b9c938cbc18108",
+      "id": "acc-1789031218033-kdq3",
+      "memberId": "mem-1789031218020",
+      "createdAt": "2026-09-10T09:06:58.033Z",
+      "lastLoginAt": "2026-09-10T09:30:55.279Z",
+      "failedLoginAttempts": 0,
+      "plainPassword": "SahilInfotech.com"
+    },
+    {
+      "lastLoginAt": "2026-09-10T09:32:14.458Z",
+      "passwordHash": "37baf7debff8c8beac7b8e9ad7ccec9f708f72a53d016dbf84a29a634cfe0c0f",
+      "role": "user",
+      "name": "Pushkar Patil",
+      "salt": "00e8e2bb9b3271a5d2b0842dbaaf6a83",
+      "id": "acc-1789032484425-2cfq",
+      "failedLoginAttempts": 0,
+      "createdAt": "2026-09-10T09:28:04.425Z",
+      "email": "pushkar.patil@sahilinfotech.com",
+      "memberId": "mem-1789032484403",
+      "plainPassword": "SahilInfotech.com"
+    }
+  ],
+  "leaves": [
+    {
+      "id": "leave-1789618321146-6ay5v",
+      "memberId": "mem-1788434350664",
+      "memberName": "Isha Hansalpara",
+      "employeeId": "EMP-1002",
+      "department": "Engineering",
+      "avatarColor": "from-blue-600 to-indigo-600",
+      "leaveType": "sick",
+      "startDate": "2026-09-09",
+      "endDate": "2026-09-17",
+      "totalDays": 9,
+      "reason": "taav aave ceh",
+      "status": "approved",
+      "appliedAt": "2026-09-17T04:12:01.146Z",
+      "reviewedAt": "2026-09-17T04:12:22.920Z",
+      "reviewedBy": "Shubham Sangani",
+      "adminRemark": "Approved. Attendance updated."
+    },
+    {
+      "appliedAt": "2026-09-10T04:16:01.935Z",
+      "endDate": "2026-09-10",
+      "memberName": "ISHA HANSALPARA",
+      "employeeId": "ISHA.HANSALPARA",
+      "reviewedAt": "2026-09-10T04:16:29.299Z",
+      "leaveType": "sick",
+      "reason": "Yyy",
+      "totalDays": 1,
+      "department": "Operations & Admin",
+      "avatarColor": "from-blue-600 to-indigo-600",
+      "status": "approved",
+      "startDate": "2026-09-10",
+      "memberId": "mem-1788434350664",
+      "adminRemark": "Approved. Attendance updated.",
+      "reviewedBy": "Shubham Sangani",
+      "id": "leave-1789013761935-810co"
+    }
+  ],
+  "deletedMemberIds": [],
+  "deletedRecordIds": [],
+  "deletedLeaveIds": [],
+  "lastUpdated": 1789629615635
+}

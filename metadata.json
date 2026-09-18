@@ -1,0 +1,9 @@
+{
+  "name": "Sahil Infotech Workforce",
+  "description": "Daily attendance management system with member administration, automated analytics dashboard, individual member history, and Excel spreadsheet exports for Sahil Infotech Workforce.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
